@@ -1,0 +1,42 @@
+.roadmap {
+	position: relative;
+	padding: 2rem;
+}
+
+.contentWrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.stepsWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.step {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.stepItem {
+	width: 100%;
+	padding: .8rem 0;
+	position: relative;
+}
+
+/* Media Queries */
+
+@media(max-width: 375px) {
+	.roadmap {
+		padding: 1rem;
+	}
+}

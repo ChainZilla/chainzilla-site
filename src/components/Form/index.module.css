@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.wrapper {
+	background-image: url('../../img/bg-white.svg');
+	background-size: cover;
+}
+
+.contentWrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.form {
+	background: #fff;
+	padding: 4rem 5rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.formControl {
+	margin-top: 3rem;
+}
+
+.inputs {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap: 2rem;
+}
+
+.inputTitle {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 13px;
+	color: #121329;
+	margin-bottom: .4rem;
+}
+
+.input {
+	background-color: #ffffff;
+	border: solid 1px #d8d8d8;
+	padding: 1rem 0;
+	width: 100%;
+}
+
+.select {
+	background-color: #ffffff;
+	width: 100%;
+	height: 46px;
+	border: 0;
+	outline: 1px solid #d8d8d8;
+	background-color: white;
+}
+
+.btn {
+	padding: .3rem 1rem;
+	color: #fff;
+	font-family: "Oswald";
+	border: 0;
+	font-size: 22.5px;
+	font-weight: 600;
+	background-color: #121329;
+	cursor: pointer;
+}
+
+.textarea {
+	width: 100%;
+	resize: none;
+	padding: 0;
+	border: 1px solid #d8d8d8;
+	height: 160px;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px) {
+	.wrapper {
+		padding: 2rem 1rem;
+	}
+	.form {
+		padding: 0;
+	}
+	inputWrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}

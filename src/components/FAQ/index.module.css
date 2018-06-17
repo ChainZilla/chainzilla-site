@@ -1,0 +1,26 @@
+.faq {
+	background-image: linear-gradient(225deg, #161d37, #121328);
+	padding: 7.5rem 2rem;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+.contentWrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.wrapper {
+	padding-top: 2rem;
+	max-width: 500px;
+	margin: auto;
+}
+
+.wrapper p,
+.wrapper ul {
+	font-family: 'Work Sans';
+}
+
+.wrapper h2 {
+	margin-top: 1rem;
+}

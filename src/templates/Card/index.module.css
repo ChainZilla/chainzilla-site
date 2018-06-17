@@ -1,0 +1,39 @@
+.card {
+	color: #161d37;
+	background: #fff;
+	padding: 0 0 1rem 0;
+	max-width: 280px;
+	max-height: 460px;
+	margin-right: 1rem;
+	box-shadow: 0px 20px 40px 0 #dddeee;
+	font-size: 16px;
+}
+
+.img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 95px;
+}
+
+.head {
+	background: #161d37;
+}
+
+/* Pseudo Selectors */
+.card:last-child {
+	margin: 0;
+}
+
+.card > p {
+}
+
+/* Media Queries */
+@media(max-width: 375px) {
+	.img {
+		display: none;
+	}
+	.card {
+		overflow: scroll;
+		margin-right: 0;
+	}
+}

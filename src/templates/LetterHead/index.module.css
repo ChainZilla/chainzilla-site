@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.letterHead {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 360px;
+	margin: 0 auto;
+}
+
+.line {
+	width: 80px;
+  height: 1px;
+  background: #121329;
+}
+
+.text {
+	letter-spacing: 0.8px;
+	font-size: 11.5px;
+	font-family: 'Work Sans', sans-serif;
+}
