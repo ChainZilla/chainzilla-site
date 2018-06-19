@@ -188,12 +188,15 @@
 @media (max-width: 956px) {
 	.header {
 		min-height: 240px;
-		background-position-y: -120px;
+		background-position-y: -135px;
 	}
 	.mobileTexts {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		margin-top: 11rem;
+	}
+	.diyMobile {
+    margin-top: 4rem;
 	}
 	.headline {
 		margin-top: 19rem;
@@ -257,25 +260,29 @@
 	.navWrapper {
 		display: none;
 	}
+	.header {
+		background-position-y: -180px;
+	}
 	.mobileTexts {
 		margin: 0;
 	}
 	.diyMobile {
-		margin-top: 2rem;
-		font-size: 22px;
+		margin-top: 4rem;
+    font-size: 22px;
 	}
 	.inBankingMobile {
-		margin-top: 15rem;
+		margin-top: 13rem;
 		font-size: 22px;
 	}
 	.inCryptoMobile {
-		margin-top: 15rem;
+		margin-top: 13rem;
 		font-size: 22px;
 	}
 	.logo {
 		width: 7rem;
 	}
 }
+
 
 @media(max-width: 750px) {
 	.nav {
