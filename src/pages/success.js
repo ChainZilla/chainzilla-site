@@ -2,7 +2,7 @@ import React from 'react'
 
 const Success = () => (
   <div>
-    <h1>Your submission was succesfull!</h1>
+    <h1>Your submission was successfull!</h1>
   </div>
 )
 
