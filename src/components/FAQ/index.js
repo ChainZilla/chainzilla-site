@@ -15,7 +15,7 @@ export default () => <div className={styles.faq}>
 		<h1 style={{textAlign: 'center', fontSize: '53.5px'}}>FAQ & SUPPORT</h1>
 		<div className={styles.wrapper}>
 			<h2>Where can I go for help?</h2>
-			<p style={{fontWeight: '300', fontSize: '.7rem'}}>Click <a style={{color: 'white'}} href="http://support.chainzilla.io/a/solutions/"> HERE</a> to open a ticket and we will address your issue as soon as we can.</p>
+			<p style={{fontWeight: '300', fontSize: '.7rem'}}>Click <a style={{color: 'white'}} href="http://support.chainzilla.io/"> HERE</a> to open a ticket and we will address your issue as soon as we can.</p>
 			<h2>Who can use ChainZilla?</h2>
 			<ul>
 				{
