@@ -13,15 +13,15 @@ const services = [
 	},
 	{
 		title: "Komodo Assetchain",
-		text: "Chainzilla lets anyone create, manage, and deploy native blockchains on the Komodo blockchain with just a few clicks. No programming required. Select from our catalog of pre-configured blockchains."
+		text: "ChainZilla lets anyone create, manage, and deploy native blockchains on the Komodo blockchain with just a few clicks. No programming required. Select from our catalog of pre-configured blockchains."
 	},
 	{
 		title: "Erc20 Token",
-		text: "Chainzilla lets anyone create, manage, and deploy smart contracts on the Ethereum blockchain with just a few clicks. No programming required. Select from our catalog of easy to configure smart contract templates."
+		text: "ChainZilla lets anyone create, manage, and deploy smart contracts on the Ethereum blockchain with just a few clicks. No programming required. Select from our catalog of easy to configure smart contract templates."
 	},
 	{
 		title: "NEM Mosaics",
-		text: "Chainzilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
+		text: "ChainZilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
 	},
 	{
 		title: "dICO APP",
@@ -53,7 +53,7 @@ const services = [
 	},
 	{
 		title: "NEM MOSAICS",
-		text: "Chainzilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
+		text: "ChainZilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
 	}
 ]
 
