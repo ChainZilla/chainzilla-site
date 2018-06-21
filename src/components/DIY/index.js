@@ -46,7 +46,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
           "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
         ]
       }
@@ -73,7 +73,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
           "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
         ]
       }
@@ -98,7 +98,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
           "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
         ]
       }
@@ -156,7 +156,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
           "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
         ]
       }
