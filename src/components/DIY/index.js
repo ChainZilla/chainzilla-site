@@ -133,7 +133,7 @@ const tabpanels = [
           "ICO WebApp (ChainZilla's proprietary technology to launch an ICO - this option is ideal for ETH contributions)",
           "Wallet (custom standalone wallet)",
           "Block Explorer (block explorer with 1 year of hosting)",
-          "SPV Implementation (Light wallet server with 1 year of hosting)"
+          "SPV Implementation (light wallet server with 1 year of hosting)"
         ]
       }
     ],
