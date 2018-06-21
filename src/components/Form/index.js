@@ -33,7 +33,7 @@ export default () => <div className={styles.wrapper}>
 					inputs.map(({ title, name }) => <div className={styles.inputWrapper} key={title}><p className={styles.inputTitle}>{title.toUpperCase()}</p><input name={name} className={styles.input} type="text" /></div>)
 				}
 			</div>
-			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>ADDITIONAL INFO</p>
+			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>PROJECT INFORMATION</p>
 			<textarea className={styles.textarea} />
 			<div style={{display: 'flex', justifyContent: 'center', marginTop: '1rem'}}>
 				<button type='submit' className={styles.btn}>GET STARTED</button>
