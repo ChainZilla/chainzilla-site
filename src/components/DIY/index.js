@@ -34,7 +34,7 @@ const tabpanels = [
         title: "DIY Custom Komodo Assetchain",
         items: [
           "Komodo tokenization (launch a custom blockchain on Komodo Platform)",
-          "dICO App (custom dico app to launch a decentralized ico with 5 coin options including ZEC, BTC, ETH, BCH, and KMD)",
+          "dICO App (custom dICO app to launch a decentralized ICO with 5 coin options including ZEC, BTC, LTC, BCH, and KMD)",
           "Wallet (Basilisk multi-wallet)",
           "Block Explorer (1 year hosting)",
           "Mining Pool Setup (if the blockchain is mineable) ",
@@ -46,7 +46,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
           "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
         ]
       }
@@ -62,7 +62,7 @@ const tabpanels = [
         title: "DIY Custom PoS Altcoin",
         items: [
           "Bitcoin compatible blockchain (launch a secure PoS blockchain)",
-          "dICO App (custom dico app to launch a decentralized ico with 5 coin options including zec, btc, eth, bch, and kmd)",
+          "dICO App (custom dico app to launch a decentralized ico with 5 coin options including ZEC, BTC, LTC, BCH, and KMD)",
           "Wallet (Basilisk multi-wallet)",
           "Block Explorer (1 year hosting)",
           "SPV Implementation (1 year hosting)",
@@ -73,7 +73,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
           "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
         ]
       }
@@ -98,7 +98,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
           "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
         ]
       }
@@ -130,7 +130,7 @@ const tabpanels = [
         items: [
           "Komodo tokenization (launch a custom blockchain on Komodo Platform)",
           "Airdrop Automation",
-          "ICO WebApp (ChainZilla's proprietary ico website to launch an ico - this option is ideal for ETH contributions)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch an ICO - this option is ideal for ETH contributions)",
           "Wallet (custom standalone wallet)",
           "Block Explorer (block explorer with 1 year of hosting)",
           "SPV Implementation (Light wallet server with 1 year of hosting)"
@@ -156,7 +156,7 @@ const tabpanels = [
       {
         title: "Premium Package Only",
         items: [
-          "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
           "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
         ]
       }
