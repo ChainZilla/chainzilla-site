@@ -162,8 +162,8 @@ const Phase = ({title, steps, color, textColor}) => <div>
 
 export default () => <div className={styles.roadmap}>
 	<div className={styles.contentWrapper}>
-	<LetterHead title="Tell us everything" />
-	<h1 style={{textAlign: "center", fontSize: '53.5px', color: '#121329'}}>READY TO LAUNCH</h1>
+	<LetterHead title="What's Next?" />
+	<h1 style={{textAlign: "center", fontSize: '53.5px', color: '#121329'}}>CHAINZILLA ROADMAP</h1>
 	{
 		phases.map(({title,steps,color}) => <Phase key={title} title={title} steps={steps} color={color} />)
 	}
