@@ -12,30 +12,6 @@ const inputs = [
 		title: "email",
 		name: "email"
 	},
-	{
-		title: "project website",
-		name: "website"
-	},
-	{
-		title: "Project Bitcointalk",
-		name: "bitcointalk"
-	},
-	{
-		title: "Project Github",
-		name: "github"
-	},
-	{
-		title: "Project Business Plan",
-		name: "businessplan"
-	},
-	{
-		title: "Project Whitepaper",
-		name: "whitepaper"
-	},
-	{
-		title: "What Services",
-		name: "services"
-	}
 ]
 
 export default () => <div className={styles.wrapper}>
