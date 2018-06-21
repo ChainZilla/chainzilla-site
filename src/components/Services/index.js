@@ -29,7 +29,7 @@ const services = [
 	},
 	{
 		title: "ICO WebApp",
-		text: "A custom application that runs server-side. It allows your users to participate in your ico through an easy to use website. It’s ideal for initial coin offerings of all types. It is one of the most secure ICO webapps available. Your funds are always in cold storage."
+		text: "A custom application that runs server-side. It allows your users to participate in your ICO through an easy to use website. It’s ideal for initial coin offerings of all types. It is one of the most secure ICO webapps available. Your funds are always in cold storage."
 	},
 	{
 		title: "SPV Servers",
@@ -49,7 +49,7 @@ const services = [
 	},
 	{
 		title: "Cyber Security Services",
-		text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote the their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug reports to other blockchain projects."
+		text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug."
 	},
 ]
 
