@@ -90,7 +90,7 @@ const tabpanels = [
       {
         title: "DIY ETH Tokenization & ICO",
         items: [
-          "ERC20 Token Deployment (ChainZilla will create a custom erc20 token)",
+          "ERC20 Token Deployment (ChainZilla will create a custom ERC20 token)",
           "Wallet (MEW wallet integration)",
           "Block Explorer (ready to host)"
         ]
