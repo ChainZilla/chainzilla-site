@@ -18,12 +18,12 @@ import LetterHead from '../../templates/LetterHead'
 
 const tabs = [
   "Komodo (KMD) Platform Assetchain",
+  "NEM Mosaics",
   "PoS Altcoin",
   "ERC-20 Universal Standard",
   "ERC-20 Migration to KMD Platform or Native Blockchain",
   "Advanced Whitepaper Development",
-  "Airdrop ICO Model",
-  "NEM Mosaics"
+  "Airdrop ICO Model"
 ]
 
 const tabpanels = [
@@ -55,6 +55,29 @@ const tabpanels = [
     img: img,
     logo: komodo,
   },
+{
+    title: "NEM Mosaics",
+    subtitle: "(coming soon)",
+    img: img,
+    logo: nem,
+    columns: [
+      {
+        title: "NEM Mosaics",
+        items: [
+          "NEM Mosaic Creation",
+          "NEM Namespace Creation",
+          "Integration to Explorer"
+        ]
+      },
+      {
+        title: "Premium Package Only",
+        items: [
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
+          "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
+        ]
+      }
+    ]
+  }
   {
     title: "PoS Altcoin",
     subtitle: "(a native blockchain powered by PoS and with all the capabilities of Bitcoin)",
@@ -138,30 +161,6 @@ const tabpanels = [
         ]
       }
     ],
-  },
-  {
-    title: "NEM Mosaics",
-    subtitle: "(coming soon)",
-    img: img,
-    logo: nem,
-    coming: true,
-    columns: [
-      {
-        title: "NEM Mosaics",
-        items: [
-          "NEM Mosaic Creation",
-          "NEM Namespace Creation",
-          "Integration to Explorer"
-        ]
-      },
-      {
-        title: "Premium Package Only",
-        items: [
-          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
-          "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
-        ]
-      }
-    ]
   }
 ]
 
