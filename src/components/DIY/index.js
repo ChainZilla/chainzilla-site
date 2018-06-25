@@ -57,7 +57,6 @@ const tabpanels = [
   },
 {
     title: "NEM Mosaics",
-    subtitle: "(coming soon)",
     img: img,
     logo: nem,
     columns: [
