@@ -12,6 +12,7 @@ import erc2 from '../../img/erc2.png'
 import whitepaper from '../../img/whitepaper.png'
 import airdrop from '../../img/airdrop.png'
 import wave from '../../img/wave2.svg'
+import nem from '../../img/NEM_icon_Graphic-lg.png'
 
 import LetterHead from '../../templates/LetterHead'
 
@@ -142,7 +143,7 @@ const tabpanels = [
     title: "NEM Mosaics",
     subtitle: "(coming soon)",
     img: img,
-    logo: airdrop,
+    logo: nem,
     coming: true,
     columns: [
       {
