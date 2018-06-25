@@ -67,7 +67,7 @@ const tabpanels = [
         ]
       }
     ]
-  }
+  },
       {
         title: "Premium Package Only",
         items: [
