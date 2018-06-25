@@ -77,7 +77,7 @@ const tabpanels = [
         ]
       }
     ]
-  }
+  },
   {
     title: "PoS Altcoin",
     subtitle: "(a native blockchain powered by PoS and with all the capabilities of Bitcoin)",
