@@ -45,6 +45,30 @@ const tabpanels = [
         ]
       },
       {
+	    title: "NEM Mosaics",
+	    subtitle: "(coming soon)",
+	    img: img,
+	    logo: nem,
+	    coming: true,
+	    columns: [
+	      {
+		title: "NEM Mosaics",
+		items: [
+		  "NEM Mosaic Creation",
+		  "NEM Namespace Creation",
+		  "Integration to Explorer"
+		]
+      },
+      {
+        title: "Premium Package Only",
+        items: [
+          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
+          "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
+        ]
+      }
+    ]
+  }
+      {
         title: "Premium Package Only",
         items: [
           "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
@@ -139,30 +163,6 @@ const tabpanels = [
       }
     ],
   },
-  {
-    title: "NEM Mosaics",
-    subtitle: "(coming soon)",
-    img: img,
-    logo: nem,
-    coming: true,
-    columns: [
-      {
-        title: "NEM Mosaics",
-        items: [
-          "NEM Mosaic Creation",
-          "NEM Namespace Creation",
-          "Integration to Explorer"
-        ]
-      },
-      {
-        title: "Premium Package Only",
-        items: [
-          "ICO WebApp (ChainZilla's proprietary technology to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run an initial coin offering)",
-          "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
-        ]
-      }
-    ]
-  }
 ]
 
 export default () => <div className={styles.diy}>
