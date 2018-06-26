@@ -49,7 +49,7 @@ const services = [
 	},
 	{
 		title: "Cyber Security Services",
-		text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug."
+		text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug reports to ensure the security of your blockchain."
 	},
 ]
 
