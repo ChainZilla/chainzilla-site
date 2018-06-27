@@ -27,7 +27,7 @@ export default () => <header className={styles.header}>
 	<div className={styles.texts}>
 		<p className={styles.inBanking}>In <span style={{fontWeight: 'bold'}}>BANKING</span>, math is based on trust.</p>
 		<p className={styles.inCrypto}>In <span style={{fontWeight: 'bold'}}>CRYPTO</span>, trust is based on math.</p>
-		<p className={styles.mission}>Our mission is to provide you bespoke DIY solutions, decentralized applications, and blockchain deployment.</p>
+		<p className={styles.mission}>Our mission is to provide bespoke blockchain solutions, decentralized applications, and blockchain deployment.</p>
 		<p className={styles.diy}>DIY Blockchain Kit- 4 Week Delivery</p>
 		<p className={styles.komodo}>Chainzilla is a 4th gen DIY blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!.</p>
 		<div onClick={() => window.scrollTo({ top: 3915, behavior: "smooth"}) } className={styles.launch}>
@@ -40,7 +40,7 @@ export default () => <header className={styles.header}>
 		<p className={styles.inCryptoMobile} style={{textAlign: 'center', color: '#121329', fontWeight: '300'}}>In <span style={{fontWeight: 'bold'}}>CRYPTO</span>, trust is based on math.</p>
 		<p className={styles.diyMobile}>DIY Blockchain Kit - 4 Week Delivery</p>
 		<p className={styles.komodoMobile}>Chainzilla is a 4th gen DIY blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!</p>
-		<p className={styles.komodoMobile}>Our mission is to provide you bespoke DIY solutions, decentralized applications, and blockchain deployment.</p>
+		<p className={styles.komodoMobile}>Our mission is to provide bespoke blockchain solutions, decentralized applications, and blockchain deployment.</p>
 		<button className={styles.launchMobile}>READY TO LAUNCH?</button>
 	</div>
 	<div onClick={() => window.scrollTo({ top: 3915, behavior: "smooth"})} className={styles.circle}>
