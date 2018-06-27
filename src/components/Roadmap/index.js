@@ -26,7 +26,7 @@ const phases = [
 				alignment: 'left'
 			},
 			{
-				text: 'Present our first official contract with a reputable project (in process)',
+				text: 'Present our first official contract with a project (in process)',
 				alignment: 'right'
 			}
 		]
