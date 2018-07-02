@@ -1,0 +1,2 @@
+export const SWITCH_LANGUAGE = "SWITCH_LANGUAGE";
+export const TOGGLE_NAV = "TOGGLE_NAV";

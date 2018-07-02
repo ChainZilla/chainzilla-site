@@ -1,0 +1,55 @@
+.sideDrawer {
+  height: 100%;
+  background: #1D2B45;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+  padding-top: 3rem;
+}
+
+.sideDrawer.open {
+  transform: translateX(0);
+}
+
+.links {
+  color: #fff;
+  list-style: none;
+  padding: 0 0 0 1.5rem;
+  margin: 0;
+  font-size: 17px;
+  font-family: 'Work Sans';
+}
+
+.links li {
+  margin-top: .5rem;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0 6.5rem;
+  margin-top: 1.5rem;
+}
+
+.languages p {
+  border-right: 1px solid #fff;
+  padding-right: .5rem;
+}
+
+/* Pseudo Selectors */
+
+.links li:first-child {
+  margin: 0;
+}
+
+.languages p:last-child {
+  border: none;
+  padding-right: 0;
+}

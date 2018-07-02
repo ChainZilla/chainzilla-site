@@ -1,29 +1,35 @@
-import React from 'react'
-import styles from './index.module.css'
+import React from 'react';
+import { connect } from "react-redux";
+import { Element } from 'react-scroll'
 
-const items = ["Blockchain entrepreneurs that want to launch a transparent crowdfund or initial coin offering",
-"ONGs that are upgrading to the blockchain era",
-"Private companies that require a blockcain for commercial or testing purposes",
-"Individuals with a gread idea who want to create a cryptocurrency and build a community around it",
-"Companies that are implementing a utility token",
-"Non profit cryptocurrency projects",
-"Academic blockchain researchers"
-]
+import styles from './index.module.css';
 
-export default () => <div className={styles.faq}>
+const FAQ = ({faq, currentLanguage}) => <Element name='faq'><div className={styles.faq}>
 	<div className={styles.contentWrapper}>
-		<h1 style={{textAlign: 'center', fontSize: '53.5px'}}>FAQ & SUPPORT</h1>
+		<h1 style={{textAlign: 'center', fontSize: '53.5px'}}>{faq.title[currentLanguage]}</h1>
 		<div className={styles.wrapper}>
-			<h2>Where can I go for help?</h2>
-			<p style={{fontWeight: '300', fontSize: '.7rem'}}>Click <a style={{color: 'white'}} href="http://support.chainzilla.io/"> HERE</a> to open a ticket and we will address your issue as soon as we can.</p>
-			<h2>Who can use ChainZilla?</h2>
+			<h2>{faq.help[currentLanguage]}</h2>
+			<p style={{fontWeight: '300', fontSize: '.7rem'}}>
+				<a href="http://support.chainzilla.io/a/solutions/" target="_blank">{faq.click[currentLanguage]}</a>
+			</p>
+			<h2>{faq.use[currentLanguage]}</h2>
 			<ul>
 				{
-					items.map(item => <li key={item}>{item}</li>)
+					faq.items[currentLanguage].map(item => <li key={item}>{item}</li>)
 				}
 			</ul>
-			<h2>Does ChainZilla OFFER SPECIAL PARTNERSHIPS?</h2>
-			<p style={{fontWeight: '300', fontSize: '.8rem'}}>Yes, ChainZilla offers special partnerships to qualified projects and custom blockchain solutions. Our management consulting services focus on our clients' most critical issues and opportunities: strategy, technology, marketing, and community. We bring deep, functional expertise provided by highly skilled professionals from the blockchain space.</p>
+			<h2>{faq.partnership[currentLanguage]}</h2>
+			<p>{faq.offers[currentLanguage]}</p>
 		</div>
 	</div>
 </div>
+</Element>
+
+const mapStateToProps = state => {
+  return {
+		faq: state.faq,
+		currentLanguage: state.currentLanguage
+	};
+};
+
+export default connect(mapStateToProps)(FAQ)

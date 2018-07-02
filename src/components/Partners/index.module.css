@@ -31,6 +31,12 @@
 	justify-content: space-around;
 }
 
+.partnerCard a {
+	text-decoration: none;
+	color: #121329;
+	transition: opacity 0.2s ease; 
+}
+
 .logo {
 	width: 50%;
 	margin: auto;
@@ -41,6 +47,12 @@
 	width: 100%;
 	height: 5px;
 	background: #121329;
+}
+
+/* Pseudo Selectors */
+
+.partnerCard a:hover {
+  opacity: 0.5; 
 }
 
 /* Media Queries */

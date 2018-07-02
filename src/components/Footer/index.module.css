@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 .footer {
-	background: #181818;
-	background-size: cover;
+	background: url(../../img/footer_bg.png);
 	color: #fff;
 	text-align: center;
-	padding: 2rem 4rem ;
+  	padding: 0; 
 	font-family: 'Work Sans', sans-serif;
 }
 
@@ -29,10 +28,13 @@
 
 .disc {
 	font-weight: 300;
-	font-size: .5rem;
+	font-size: 10px;
 	-webkit-font-smoothing: antialiased;
 	max-width: 1200px;
-	margin: 1rem auto 1rem auto;
+	margin: 1rem auto 0;
+	color: #d8d6d8;
+	text-align: left;
+	padding: 0 2rem 4rem 2rem;
 }
 
 .social {
@@ -47,6 +49,15 @@
 	justify-content: space-between;
 }
 
+.socialIcons .item {
+	transition: transform 0.2s ease; 
+}
+
+.paymentIcons { 
+  display: flex; 
+  justify-content: space-between; 
+} 
+
 .footerIcon {
 	background-color: #181818;
 }
@@ -56,6 +67,7 @@
 	justify-content: space-between;
 	max-width: 1200px;
 	margin: auto;
+	padding: 3rem 4rem; 
 }
 
 /* Pseudo Selectors */
@@ -63,19 +75,21 @@
 	margin: 0;
 }
 
+.socialIcons .item:hover { 
+  transform: scale(1.2); 
+} 
+
 /* Tablet */
 @media(max-width: 960px) {
-	.footer {
-		padding: 1rem;
-	}
 	.disc {
-		padding: 0;
+    padding: 0 4rem 4rem 4rem; 
 	}
 	.social {
 		padding: 2rem 0rem;
 	}
 	.footerWrapper {
 		flex-direction: column;
+		padding: 0;
 	}
 	.socialIcons {
 		grid-template-columns: repeat(auto-fill, 180px);
@@ -84,4 +98,11 @@
 		justify-content: center;
 		padding-top: 2rem;
 	}
+	.paymentIcons {
+    grid-template-columns: repeat(auto-fill, 180px);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    justify-content: center;
+    padding-top: 2rem;
+  }
 }

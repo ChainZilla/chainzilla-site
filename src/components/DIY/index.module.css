@@ -45,12 +45,24 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	transition: opacity 0.2s ease; 
 }
 
 .selectedTab {
   background-color: #dfdfdf;
-  color: #19203d;	
+	color: #19203d;
+	transition: opacity 0.2s ease;
 }
+
+/* Pseudo Selectors */
+
+.tab:hover { 
+  opacity: 0.8; 
+}
+
+.selectedTab:hover { 
+  opacity: 0.8; 
+} 
 
 /* Media Queries */
 
@@ -58,6 +70,9 @@
 	.diy {
 		padding: 2rem;
 	}
+	.diyWrapper { 
+    margin: 0 auto 15rem auto; 
+  } 
 }
 
 /* Tablet */
@@ -69,6 +84,9 @@
 	.diy {
 		padding: 1rem 1rem 10rem 1rem;
 	}
+	.diyWrapper { 
+    margin: 0 auto; 
+  } 
 }
 
 /* Phone */
@@ -76,12 +94,6 @@
 	.diy {
 		padding: 1rem 1rem 10rem 1rem;	
 	}
-	/* .diyWrapper {
-		display: none;
-	} */
-	/* .diyMobile {
-		display: ;
-	} */
 	.tablist {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);

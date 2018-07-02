@@ -1,7 +1,10 @@
 import React from 'react'
+import { connect } from "react-redux";
+import { Element } from 'react-scroll'
 import styles from './index.module.css'
 
 import LetterHead from '../../templates/LetterHead'
+import wave2 from '../../img/wave4.png'
 
 const inputs = [
 	{
@@ -11,14 +14,23 @@ const inputs = [
 	{
 		title: "email",
 		name: "email"
-	},
+	}
 ]
 
-export default () => <div className={styles.wrapper}>
+const mapStateToProps = state => ({
+	currentLanguage: state.currentLanguage,
+	letterhead: state.form.letterhead,
+	project: state.form.project,
+	started: state.form.started,
+	launchText: state.form.launchText
+})
+
+const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <Element name='form'><div className={styles.wrapper}>
+	<img className={styles.wave} src={wave2} />
 	<div className={styles.contentWrapper}>
 	<div className={styles.form}>
-		<LetterHead title="Tell us everything" />
-		<h1 style={{textAlign: "center", fontSize: '53.5px', color: '#121329'}}>READY TO LAUNCH</h1>
+		<LetterHead title={letterhead[currentLanguage]} />
+		<h1 style={{textAlign: "center", fontSize: '53.5px', color: '#121329'}}>{launchText[currentLanguage]}</h1>
 		<form
 			className={styles.formControl}
 			name="contact"
@@ -30,15 +42,18 @@ export default () => <div className={styles.wrapper}>
 		  <input type="hidden" name="contact" value="contact" />  
 			<div className={styles.inputs}>
 				{
-					inputs.map(({ title, name }) => <div className={styles.inputWrapper} key={title}><p className={styles.inputTitle}>{title.toUpperCase()}</p><input name={name} className={styles.input} type="text" /></div>)
+					inputs.map(({ title, name }) => <div className={styles.inputWrapper} key={title}><p className={styles.inputTitle}>{title.toUpperCase()}</p><input autoComplete={name} name={name} className={styles.input} type="text" /></div>)
 				}
 			</div>
-			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>PROJECT INFORMATION</p>
+			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>{project[currentLanguage]}</p>
 			<textarea className={styles.textarea} />
 			<div style={{display: 'flex', justifyContent: 'center', marginTop: '1rem'}}>
-				<button type='submit' className={styles.btn}>GET STARTED</button>
+				<button type='submit' className={styles.btn}>{started[currentLanguage]}</button>
 			</div>
 		</form>
 	</div>
 	</div>
 </div>
+</Element>
+
+export default connect(mapStateToProps)(Form)
