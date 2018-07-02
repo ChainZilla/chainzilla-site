@@ -6,7 +6,7 @@ export default ({ title, text, logo }) => <div className={styles.tile}>
 		<img className={styles.logo} src={logo} />
 	</div>
 	<div>
-		<h1>{title.toUpperCase()}</h1>
+		<h1 style={{fontFamily: "Oswald"}}>{title.toUpperCase()}</h1>
 		<p>{text}</p>
 	</div>
 </div>

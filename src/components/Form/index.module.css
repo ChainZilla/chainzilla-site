@@ -3,11 +3,13 @@
 .wrapper {
 	background-image: url('../../img/bg-white.svg');
 	background-size: cover;
+	position: relative;
 }
 
 .contentWrapper {
 	max-width: 1200px;
 	margin: auto;
+	padding-top: 10%;
 }
 
 .form {
@@ -15,6 +17,13 @@
 	padding: 4rem 5rem;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.wave {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
 }
 
 .formControl {
@@ -60,6 +69,7 @@
 	font-weight: 600;
 	background-color: #121329;
 	cursor: pointer;
+	transition: opacity 0.2s ease;
 }
 
 .textarea {
@@ -68,6 +78,12 @@
 	padding: 0;
 	border: 1px solid #d8d8d8;
 	height: 160px;
+}
+
+/* Pseudo Selectors */
+
+.btn:hover { 
+	opacity: 0.5;
 }
 
 /* Media Queries */

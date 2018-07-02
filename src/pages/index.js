@@ -1,6 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import './index.module.css'
+import React from 'react';
+import { Provider } from "react-redux";
+import store from '../store';
+import './index.module.css';
 
 import Header from '../components/Header'
 import Work from '../components/Work'
@@ -12,7 +13,7 @@ import Roadmap from '../components/Roadmap'
 import Partners from '../components/Partners'
 import Footer from '../components/Footer'
 
-const IndexPage = () => <div>
+const IndexPage = () => <Provider store={store}><div>
   <Header />
   <DIY />
   <Work />
@@ -23,6 +24,7 @@ const IndexPage = () => <div>
   <Partners />
   <Footer />
 </div>
+</Provider>
 
 
 export default IndexPage
