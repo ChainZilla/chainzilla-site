@@ -107,7 +107,7 @@ const initialState = {
       es: 'En crypto, la confianza es basada en matemática.'
     },
     mission: {
-      en: "ChainZilla’s mission is to become the standard in development of DIY solutions, decentralized applications, and blockchain deployment.",
+      en: "Our mission is to provide you the most efficient bespoke blockchain solutions, decentralized applications, and blockchain deployment.",
       es: "Nuestra misión es proporcionar soluciones blockchain a medida, aplicaciones descentralizadas y lanzamiento de blockchains."
     },
     diy: {
@@ -115,7 +115,7 @@ const initialState = {
       es: "Paquete Ejecutivo - Entrega En 4 Semanas"
     },
     komodo: {
-      en: "ChainZilla is a 4th gen DIY blockchain service provider of Komodo Assetchains, Altcoins, and ERC20 Tokens. No programming needed!",
+      en: "Chainzilla is a 4th gen DIY blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!",
       es: "Chainzilla es un proveedor de servicios para NEM, Komodo, QTum y Ethereum de 4ta generación. ¡No se necesita programación!"
     },
     launchText: {
@@ -197,8 +197,8 @@ const initialState = {
         "Komodo (KMD) Platform Assetchain",
         "NEM Mosaics",
         "PoS Altcoin",
-        "ERC-20 Universal Standard",
-        "ERC-20 Migration to KMD Platform or Native Blockchain",
+        "ERC20 Universal Standard",
+        "ERC20 Migration to KMD Platform or Native Blockchain",
         "Advanced Whitepaper Development",
         "Airdrop ICO Model"
       ],
@@ -206,8 +206,8 @@ const initialState = {
         "Komodo Platform Assetchain",
         "Mosaics de NEM",
         "Blockchain PoS Alternativo",
-        "Estandard Universal ERC-20",
-        "Migración fuera de ERC-20 a un mínimo blockchain viable.",
+        "Estandard Universal ERC20",
+        "Migración fuera de ERC20 a un mínimo blockchain viable.",
         "Desarrollo de Papel Tecnico",
         "ICO por Airdrop"
       ],
@@ -234,8 +234,8 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
-                "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
+                "ICO WebApp (ChainZilla's proprietary website to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
           ],
@@ -258,8 +258,8 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
-                "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
+                "ICO WebApp (ChainZilla's proprietary ico website to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
           ]
@@ -272,7 +272,7 @@ const initialState = {
               title: "DIY Custom PoS Altcoin",
               items: [
                 "Bitcoin compatible blockchain (launch a secure PoS blockchain)",
-                "dICO App (custom dico app to launch a decentralized ico with 5 coin options including zec, btc, eth, bch, and kmd)",
+                "dICO App (custom dico app to launch a decentralized ICO with 5 coin options including ZEC, BTC, ETH, BCH, and KMD)",
                 "Wallet (Basilisk multi-wallet)",
                 "Block Explorer (1 year hosting)",
                 "SPV Implementation (1 year hosting)",
@@ -283,8 +283,8 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
-                "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
+                "ICO WebApp (ChainZilla's proprietary ICO website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
           ],
@@ -292,7 +292,7 @@ const initialState = {
           logo: pos
         },
         {
-          title: "ERC-20 universal standard ",
+          title: "ERC20 universal standard ",
           subtitle: "",
           img: img,
           logo: erc1,
@@ -300,7 +300,7 @@ const initialState = {
             {
               title: "DIY ETH Tokenization & ICO",
               items: [
-                "ERC20 Token Deployment (ChainZilla will create a custom erc20 token)",
+                "ERC20 Token Deployment (ChainZilla will create a custom ERC20 token)",
                 "Wallet (MEW wallet integration)",
                 "Block Explorer (ready to host)"
               ]
@@ -308,14 +308,14 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary ico website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
-                "Automated Pricing (customize your ico with rewards and special deals and custom distribution schemes)"
+                "ICO WebApp (ChainZilla's proprietary ico website to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
           ],
         },
         {
-          title: "ERC-20 universal standard Migration to Komodo Platform or Native blockchain",
+          title: "ERC20 universal standard Migration to Komodo Platform or Native blockchain",
           subtitle: "This package must be ordered as an add-on to our DIY packages. In addition to all services offered in our blockchain creation package we will deliver an easy to use webapp in order for you to make a full migration away from Ethereum.",
           img: img,
           logo: erc2,
@@ -340,7 +340,7 @@ const initialState = {
               items: [
                 "Komodo tokenization (launch a custom blockchain on Komodo Platform)",
                 "Airdrop Automation",
-                "ICO WebApp (ChainZilla's proprietary ico website to launch an ico - this option is ideal for ETH contributions)",
+                "ICO WebApp (ChainZilla's proprietary ico website to launch an ICO - this option is ideal for ETH contributions)",
                 "Wallet (custom standalone wallet)",
                 "Block Explorer (block explorer with 1 year of hosting)",
                 "SPV Implementation (Light wallet server with 1 year of hosting)"
@@ -428,7 +428,7 @@ const initialState = {
           logo: pos
         },
         {
-          title: "Estandard Universal ERC-20",
+          title: "Estandard Universal ERC20",
           subtitle: "",
           img: img,
           logo: erc1,
@@ -451,7 +451,7 @@ const initialState = {
           ],
         },
         {
-          title: "Migración fuera de ERC-20 a un mínimo blockchain viable.",
+          title: "Migración fuera de ERC20 a un mínimo blockchain viable.",
           subtitle: "Este paquete debe pedirse como complemento de nuestros paquetes de tokenización. Además de todos los servicios ofrecidos en nuestro paquete de creación de blockchain, le entregaremos una aplicación web fácil de usar para que realice una migración completa fuera de Ethereum.",
           img: img,
           logo: erc2,
@@ -540,7 +540,7 @@ const initialState = {
           text: "SPV or Electrum is a technique described in Satoshi Nakamoto’s paper. SPV allows a lightweight client to verify that a transaction is included in the blockchain without downloading the entire blockchain. Also known as a Lite wallet."
         },
         {
-          title: "wallets",
+          title: "Wallets",
           text: "Store and manage digital currencies with ease with your own custom cryptocurrency wallet."
         },
         {
@@ -553,12 +553,8 @@ const initialState = {
         },
         {
           title: "Cyber Security Services",
-          text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote the their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug reports to other blockchain projects."
+          text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote the their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug reports to secure your blockchain."
         },
-        {
-          title: "NEM MOSAICS",
-          text: "Chainzilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
-        }
       ],
       es: [
         {
@@ -583,7 +579,7 @@ const initialState = {
         },
         {
           title: "Aplicación Web para dICO",
-          text: "Una aplicación propietaria que se ejecuta en el servidor. Permite a sus usuarios participar en su ico a través de un sitio web fácil de usar. Es ideal para ofertas de monedas iniciales de todo tipo. Es una de las webapps ICO más seguras disponibles. Sus fondos están siempre almacenados en frío."
+          text: "Una aplicación propietaria que se ejecuta en el servidor. Permite a sus usuarios participar en su ICO a través de un sitio web fácil de usar. Es ideal para ofertas de monedas iniciales de todo tipo. Es una de las webapps ICO más seguras disponibles. Sus fondos están siempre almacenados en frío."
         },
         {
           title: "Monederos",
@@ -603,7 +599,7 @@ const initialState = {
         },
         {
           title: "Servicios de seguridad cibernética",
-          text: "En colaboración con DevSEC volveremos a nuestras raíces de hackers. Nuestros hackathons y programas de recompensas fortalecerán nuestros lazos con la comunidad blanca / sombrero gris y promoverán su crecimiento continuo. ChainZilla aprovechará la experiencia de los profesionales más capaces en este campo para evaluar, revisar por pares y proporcionar informes críticos de fallas a otros proyectos de blockchain."
+          text: "En colaboración con DevSEC volveremos a nuestras raíces de hackers. Nuestros hackathons y programas de recompensas fortalecerán nuestros lazos con la comunidad blanca / sombrero gris y promoverán su crecimiento continuo. ChainZilla aprovechará la experiencia de los profesionales más capaces en este campo para evaluar, revisar por pares y proporcionar informes críticos para su proyecto."
         },
         {
           title: "Servicios diversos (consultar plazos de entrega)",
