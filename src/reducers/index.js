@@ -107,7 +107,7 @@ const initialState = {
       es: 'En crypto, la confianza es basada en matemática.'
     },
     mission: {
-      en: "ChainZilla’s mission is to become the standard in development of DIY solutions, decentralized applications, and blockchain deployment.",
+      en: "Our mission is to provide you the most efficient bespoke blockchain solutions, decentralized applications, and blockchain deployment.",
       es: "Nuestra misión es proporcionar soluciones blockchain a medida, aplicaciones descentralizadas y lanzamiento de blockchains."
     },
     diy: {
@@ -115,7 +115,7 @@ const initialState = {
       es: "Paquete Ejecutivo - Entrega En 4 Semanas"
     },
     komodo: {
-      en: "ChainZilla is a 4th gen DIY blockchain service provider of Komodo Assetchains, Altcoins, and ERC20 Tokens. No programming needed!",
+      en: "Chainzilla is a 4th gen DIY blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!",
       es: "Chainzilla es un proveedor de servicios para NEM, Komodo, QTum y Ethereum de 4ta generación. ¡No se necesita programación!"
     },
     launchText: {
