@@ -29,20 +29,20 @@ const initialState = {
       es: '¿A dónde puedo ir por ayuda?'
     },
     use: {
-      en: 'Who can use Chainzilla?',
-      es: '¿Quién puede usar Chainzilla?'
+      en: 'Who can use ChainZilla?',
+      es: '¿Quién puede usar ChainZilla?'
     },
     click: {
       en: 'Click HERE to open a ticket and we will address your issue as soon as we can.',
       es: 'Haga clic AQUÍ para abrir un ticket y solucionaremos su problema tan pronto como podamos.'
     },
     partnership: {
-      en: 'Does Chainzilla OFFER SPECIAL PARTNERSHIPS?',
-      es: '¿OFRECE Chainzilla ALIANZAS ESPECIALES?'
+      en: 'Does ChainZilla OFFER SPECIAL PARTNERSHIPS?',
+      es: '¿OFRECE ChainZilla ALIANZAS ESPECIALES?'
     },
     offers: {
-      en: "Yes, Chainzilla offers special partnerships to qualified projects and custom blockchain solutions. Our management consulting services focus on our clients' most critical issues and opportunities: strategy, technology, marketing, and community. We bring deep, functional expertise provided by highly skilled professionals from the blockchain space.",
-      es: 'Sí, Chainzilla ofrece alianzas especiales para proyectos calificados y soluciones blockchain personalizadas. Nuestros servicios de consultoría de gestión se centran en los problemas y oportunidades más importantes de nuestros clientes: estrategia, tecnología, marketing y comunidad. Brindamos experiencia profunda y funcional provista por profesionales altamente calificados del espacio blockchain.'
+      en: "Yes, ChainZilla offers special partnerships to qualified projects and custom blockchain solutions. Our management consulting services focus on our clients' most critical issues and opportunities: strategy, technology, marketing, and community. We bring deep, functional expertise provided by highly skilled professionals from the blockchain space.",
+      es: 'Sí, ChainZilla ofrece alianzas especiales para proyectos calificados y soluciones blockchain personalizadas. Nuestros servicios de consultoría de gestión se centran en los problemas y oportunidades más importantes de nuestros clientes: estrategia, tecnología, marketing y comunidad. Brindamos experiencia profunda y funcional provista por profesionales altamente calificados del espacio blockchain.'
     },
     items: {
       en: ["Blockchain entrepreneurs",
@@ -115,8 +115,8 @@ const initialState = {
       es: "Paquete Ejecutivo - Entrega En 4 Semanas"
     },
     komodo: {
-      en: "Chainzilla is a 4th gen DIY blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!",
-      es: "Chainzilla es un proveedor de servicios para NEM, Komodo, QTum y Ethereum de 4ta generación. ¡No se necesita programación!"
+      en: "ChainZilla is a 4th gen DIY blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!",
+      es: "ChainZilla es un proveedor de servicios para NEM, Komodo, QTum y Ethereum de 4ta generación. ¡No se necesita programación!"
     },
     launchText: {
       en: "READY TO LAUNCH?",
@@ -162,7 +162,7 @@ const initialState = {
       es: [
         {
         title: "Primer Contacto",
-        text: "El primer paso es contactar a un representante de Chainzilla con todos los detalles de su nuevo blockchain y proyecto.",
+        text: "El primer paso es contactar a un representante de ChainZilla con todos los detalles de su nuevo blockchain y proyecto.",
         img: invoicing
         },
         {
@@ -502,8 +502,8 @@ const initialState = {
   },
   services: {
     title: {
-      en: "CHAINZILLA SERVICES",
-      es: "Servicios de Chainzilla"
+      en: "ChainZilla Services",
+      es: "Servicios de ChainZilla"
     },
     subTitle: {
       en: "All DIY packages are delivered with logo & General branding",
@@ -517,15 +517,15 @@ const initialState = {
         },
         {
           title: "Komodo Assetchain",
-          text: "Chainzilla lets anyone create, manage, and deploy native blockchains on the Komodo blockchain with just a few clicks. No programming required. Select from our catalog of pre-configured blockchains."
+          text: "ChainZilla lets anyone create, manage, and deploy native blockchains on the Komodo blockchain with just a few clicks. No programming required. Select from our catalog of pre-configured blockchains."
         },
         {
           title: "ERC20 Token",
-          text: "Chainzilla lets anyone create, manage, and deploy smart contracts on the Ethereum blockchain with just a few clicks. No programming required. Select from our catalog of easy to configure smart contract templates."
+          text: "ChainZilla lets anyone create, manage, and deploy smart contracts on the Ethereum blockchain with just a few clicks. No programming required. Select from our catalog of easy to configure smart contract templates."
         },
         {
           title: "NEM Mosaics",
-          text: "Chainzilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
+          text: "ChainZilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
         },
         {
           title: "dICO APP",
@@ -563,15 +563,15 @@ const initialState = {
         },
         {
           title: "Blockchain en Komodo",
-          text: "Chainzilla permite a cualquier persona crear, administrar y desplegar block chains utilizando la tecnología de Komodo con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas fáciles de configurar."
+          text: "ChainZilla permite a cualquier persona crear, administrar y desplegar block chains utilizando la tecnología de Komodo con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas fáciles de configurar."
         },
         {
           title: "Tokenización en ERC-20",
-          text: "Chainzilla permite a cualquier persona crear, gestionar e implementar contratos inteligentes en el blockchain de Ethereum con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas de contratos inteligentes fáciles de configurar."
+          text: "ChainZilla permite a cualquier persona crear, gestionar e implementar contratos inteligentes en el blockchain de Ethereum con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas de contratos inteligentes fáciles de configurar."
         },
         {
           title: "NEM Mosaics",
-          text: "Chainzilla permite que cualquiera cree, administre y distribuya Mosaicos y Espacio de nombres NEM con solo unos pocos clics. No se requiere programación."
+          text: "ChainZilla permite que cualquiera cree, administre y distribuya Mosaicos y Espacio de nombres NEM con solo unos pocos clics. No se requiere programación."
         },
         {
           title: "Aplicación Desktop para dICO",
