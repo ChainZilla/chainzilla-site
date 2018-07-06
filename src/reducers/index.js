@@ -48,7 +48,7 @@ const initialState = {
       en: ["Blockchain entrepreneurs",
       "Blockchain entrepreneurs that want to launch a transparent crowdfund or initial coin offering",
       "ONGs that are upgrading to the blockchain era",
-      "Private companies that require a blockcain for commercial or testing purposes",
+      "Private companies that require a blockchain for commercial or testing purposes",
       "Individuals with an idea who want to create a cryptocurrency and build a community",
       "Companies that are implementing a utility token",
       "Non profit cryptocurrency projects",
