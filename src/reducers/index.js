@@ -107,7 +107,7 @@ const initialState = {
       es: 'En crypto, la confianza es basada en matemática.'
     },
     mission: {
-      en: "Our mission is to provide you the most efficient bespoke blockchain solutions, decentralized applications, and blockchain deployment.",
+      en: "Our mission is to provide businesses the most efficient bespoke solutions, decentralized applications, and blockchain deployment.",
       es: "Nuestra misión es proporcionar soluciones blockchain a medida, aplicaciones descentralizadas y lanzamiento de blockchains."
     },
     diy: {
