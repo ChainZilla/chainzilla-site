@@ -111,11 +111,11 @@ const initialState = {
       es: "Nuestra misión es proporcionar soluciones blockchain a medida, aplicaciones descentralizadas y lanzamiento de blockchains."
     },
     diy: {
-      en: "DIY Blockchain Kit- 4 Week Delivery",
+      en: "BaaS Kit- 4 Week Delivery",
       es: "Paquete Ejecutivo - Entrega En 4 Semanas"
     },
     komodo: {
-      en: "ChainZilla is a 4th gen DIY blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!",
+      en: "ChainZilla is a 4th gen blockchain as a service provider for NEM, Komodo, QTum, and Ethereum. No programming needed!",
       es: "ChainZilla es un proveedor de servicios para NEM, Komodo, QTum y Ethereum de 4ta generación. ¡No se necesita programación!"
     },
     launchText: {
