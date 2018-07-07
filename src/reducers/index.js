@@ -86,7 +86,7 @@ const initialState = {
   header: {
     menuItems: {
       en: [
-        {item: "DIY Services", n: 'diy'},
+        {item: "BaaS", n: 'diy'},
         {item: "How it Works", n: 'works'},
         {item: "FAQ & Support", n: 'faq'},
         {item: "Team", n: 'partners'}
@@ -185,7 +185,7 @@ const initialState = {
   },
   diy: {
     title: {
-      en: 'DIY SERVICES',
+      en: 'Blockchain as a Service',
       es: 'Servicios Blockchain'
     },
     letterhead: {
