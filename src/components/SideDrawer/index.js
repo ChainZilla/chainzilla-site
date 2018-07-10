@@ -39,7 +39,7 @@ const sideDrawer = ({ isNavOpen, switchLanguage, currentLanguage, menuItems }) =
       <ul className='links'>
         {menuItems[currentLanguage].map(({item, n}) => <li onClick={() => scroller.scrollTo(n, {smooth: true}) } key={item}>{item}</li>)}
         <li><a style={{textDecoration: 'none', color: '#fff'}} href="http://www.zillaexplorer.io/" target="_blank">ZillaExplorer</a></li>
-        <li><a style={{textDecoration: 'none', color: '#fff'}} href="/" >Whitepaper</a></li>
+        <li><a style={{textDecoration: 'none', color: '#fff'}} href="/ChainZilla_Litepaper_v1.pdf" >Litepaper</a></li>
       </ul>
       {/* @todo: add whitepaper pdf */} 
       <div className='languages'>
