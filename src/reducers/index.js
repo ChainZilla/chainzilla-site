@@ -620,12 +620,12 @@ const initialState = {
   },
   roadmap: {
     letterhead: {
-      es: 'DINOS TODO',
-      en: 'TELL US EVERYTHING'
+      es: '¿QUE SIQUE?',
+      en: 'WHATS NEXT?'
     },
     launchText: {
-      en: 'READY TO LAUNCH?',
-      es: "LISTO PARA LANZAR?"
+      en: 'CHAINZILLA ROADMAP',
+      es: 'HOJA DE RUTA DE CHAINZILLA',
     },
     phases: {
       en: [
@@ -642,7 +642,7 @@ const initialState = {
               alignment: 'left'
             },
             {
-              text: 'Establish Partnerships with exchanges, security experts, and crypto communities to endorse ChainZilla',
+              text: 'Establish Partnerships with exchanges, security experts, and crypto communities to endorse ChainZilla (in process)',
               alignment: 'right'
             },
             {
@@ -664,7 +664,7 @@ const initialState = {
               alignment: 'right'
             },
             {
-              text: 'PoS Altcoin DIY',
+              text: 'NEM Mosaics',
               alignment: 'left'
             },
             {
@@ -676,7 +676,7 @@ const initialState = {
               alignment: 'left'
             },
             {
-              text: 'White Paper Development Services',
+              text: 'White Paper Development Services (completed)',
               alignment: 'right'
             },
             {
@@ -706,7 +706,7 @@ const initialState = {
               alignment: 'left'
             },
             {
-              text: "NEM Mosaics",
+              text: "PoS Altcoin DIY",
               alignment: 'right'
             },
             {
@@ -798,7 +798,7 @@ const initialState = {
               alignment: 'right'
             },
             {
-              text: 'PoS Altcoin DIY',
+              text: 'Mosaics de NEM',
               alignment: 'left'
             },
             {
@@ -810,7 +810,7 @@ const initialState = {
               alignment: 'left'
             },
             {
-              text: 'Desarrollo de Papel Tecnico',
+              text: 'Desarrollo de Papel Tecnico (completado)',
               alignment: 'right'
             },
             {
@@ -840,7 +840,7 @@ const initialState = {
               alignment: 'left'
             },
             {
-              text: "Mosaics de NEM",
+              text: "PoS Altcoin DIY",
               alignment: 'right'
             },
             {
