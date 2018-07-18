@@ -45,8 +45,7 @@ const initialState = {
       es: 'Sí, ChainZilla ofrece alianzas especiales para proyectos calificados y soluciones blockchain personalizadas. Nuestros servicios de consultoría de gestión se centran en los problemas y oportunidades más importantes de nuestros clientes: estrategia, tecnología, marketing y comunidad. Brindamos experiencia profunda y funcional provista por profesionales altamente calificados del espacio blockchain.'
     },
     items: {
-      en: ["Blockchain entrepreneurs",
-      "Blockchain entrepreneurs that want to launch a transparent crowdfund or initial coin offering",
+      en: ["Blockchain entrepreneurs that want to launch a transparent crowdfund or initial coin offering",
       "ONGs that are upgrading to the blockchain era",
       "Private companies that require a blockchain for commercial or testing purposes",
       "Individuals with an idea who want to create a cryptocurrency and build a community",
