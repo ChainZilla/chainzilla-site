@@ -46,7 +46,7 @@ const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <El
 				}
 			</div>
 			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>{project[currentLanguage]}</p>
-			<textarea className={styles.textarea} />
+			<textarea name='information' className={styles.textarea} />
 			<div style={{display: 'flex', justifyContent: 'center', marginTop: '1rem'}}>
 				<button type='submit' className={styles.btn}>{started[currentLanguage]}</button>
 			</div>
