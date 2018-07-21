@@ -14,6 +14,19 @@ import erc2 from '../img/erc2.png'
 import whitepaper from '../img/whitepaper.png'
 import airdrop from '../img/airdrop.png'
 
+import cyber from '../img/services_CYBERicon-m.png'
+import dico from '../img/services_dCICOicon-m.png'
+import diytoken from '../img/services_DIYTOKENicon-m.png'
+import ecommerce from '../img/services_ECOMMERCEicon-m.png'
+import ercicon from '../img/services_ERCicon-m.png'
+import explorer from '../img/services_EXPLORERicon-m.png'
+import icoicon from '../img/services_ICOicon-m.png'
+import kmdicon from '../img/services_KMDicon-m.png'
+import misc from '../img/services_MISCicon-m.png'
+import nem from '../img/services_NEMicon-m.png'
+import SPV from '../img/services_SPVicon-m.png'
+import wallet from '../img/Services_WALLETicon-m.png'
+
 import { SWITCH_LANGUAGE, TOGGLE_NAV } from '../actions/types';
 
 const initialState = {
