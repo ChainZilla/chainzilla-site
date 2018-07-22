@@ -7,7 +7,7 @@ import deployment from '../img/deployment.png'
 
 import img from '../img/diy-bg.jpg'
 import komodo from '../img/komodo.png'
-import nem from '../img/nem-mosaics.png'
+// import nem from '../img/nem-mosaics.png'
 import pos from '../img/pos.png'
 import erc1 from '../img/erc1.png'
 import erc2 from '../img/erc2.png'
