@@ -87,13 +87,13 @@ const initialState = {
       en: [
         {item: "BaaS", n: 'diy'},
         {item: "How it Works", n: 'works'},
-        {item: "FAQ & Support", n: 'faq'},
+        {item: "FAQ", n: 'faq'},
         {item: "Team", n: 'partners'}
       ],
       es: [
         {item: "Servicios Blockchain", n: 'diy'},
         {item: "¿Como funciona?", n: 'works'},
-        {item: "Preguntas frecuentes y soporte", n: 'faq'},
+        {item: "FAQ", n: 'faq'},
         {item: "Equipo", n: 'partners'}
       ]
     },

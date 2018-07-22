@@ -81,6 +81,8 @@ class Header extends React.Component {
 			<ul className={styles.nav}>
 				{menuItems[currentLanguage].map(({item, n}) => <li onClick={() => scroller.scrollTo(n, {smooth: true}) } style={this.state.dark ? {color: '#fff'} : {color: '#111126'}} className={styles.item} key={item}>{item}</li>)}
 				<a style={this.state.dark ? {color: '#fff'} : null} href="http://www.zillaexplorer.io/" target="_blank" className={styles.item}>ZillaExplorer</a> 
+				<a style={this.state.dark ? {color: '#fff'} : null} href="https://komodoplatform.com/komodo-wallets/" target="_blank" className={styles.item}>Wallet</a>
+				<a style={this.state.dark ? {color: '#fff'} : null} href="https://github.com/atomiclabs/hyperdex/releases" target="_blank" className={styles.item}>DEX</a>
         <a style={this.state.dark ? {color: '#fff'} : null} href="/ChainZilla_Litepaper_v1.pdf" className={styles.item} target="_blank">Litepaper</a> 
 				<select className={styles.select} onChange={(e) => switchLanguage(e.target.value)}>
 					<option value='en'>EN</option>
