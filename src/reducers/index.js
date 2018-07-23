@@ -7,12 +7,25 @@ import deployment from '../img/deployment.png'
 
 import img from '../img/diy-bg.jpg'
 import komodo from '../img/komodo.png'
-import nem from '../img/nem-mosaics.png'
+// import nem from '../img/nem-mosaics.png'
 import pos from '../img/pos.png'
 import erc1 from '../img/erc1.png'
 import erc2 from '../img/erc2.png'
 import whitepaper from '../img/whitepaper.png'
 import airdrop from '../img/airdrop.png'
+
+import cyber from '../img/Services_CYBERicon-m.png'
+import dico from '../img/Services_dCICOicon-m.png'
+import diytoken from '../img/Services_DIYTOKENicon-m.png'
+import ecommerce from '../img/Services_ECOMMERCEicon-m.png'
+import ercicon from '../img/Services_ERCicon-m.png'
+import explorer from '../img/Services_EXPLORERicon-m.png'
+import icoicon from '../img/Services_ICOicon-m.png'
+import kmdicon from '../img/Services_KMDicon-m.png'
+import misc from '../img/Services_MISCicon-m.png'
+import nem from '../img/Services_NEMicon-m.png'
+import spv from '../img/Services_SPVicon-m.png'
+import wallet from '../img/Services_WALLETicon-m.png'
 
 import { SWITCH_LANGUAGE, TOGGLE_NAV } from '../actions/types';
 
@@ -512,98 +525,116 @@ const initialState = {
       en: [
         {
           title: "DIY Token Sale",
-          text: "Launch your own token sale with a visual interface. Remove all the worry of hackers taking advantage of bugs by using our tested and secure software. This includes the automation of transfers, cold storage or time-locked transactions, and token distribution without third parties."
+          text: "Launch your own token sale with a visual interface. Remove all the worry of hackers taking advantage of bugs by using our tested and secure software. This includes the automation of transfers, cold storage or time-locked transactions, and token distribution without third parties.",
+          img: diytoken
         },
         {
           title: "Komodo Assetchain",
-          text: "ChainZilla lets anyone create, manage, and deploy native blockchains on the Komodo blockchain with just a few clicks. No programming required. Select from our catalog of pre-configured blockchains."
+          text: "ChainZilla lets anyone create, manage, and deploy native blockchains on the Komodo blockchain with just a few clicks. No programming required. Select from our catalog of pre-configured blockchains.",
+          img: kmdicon       
         },
         {
           title: "ERC20 Token",
-          text: "ChainZilla lets anyone create, manage, and deploy smart contracts on the Ethereum blockchain with just a few clicks. No programming required. Select from our catalog of easy to configure smart contract templates."
+          text: "ChainZilla lets anyone create, manage, and deploy smart contracts on the Ethereum blockchain with just a few clicks. No programming required. Select from our catalog of easy to configure smart contract templates.",
+          img: ercicon
         },
         {
           title: "NEM Mosaics",
-          text: "ChainZilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required."
+          text: "ChainZilla lets anyone create, manage, and distribute NEM Mosaics and Namespace with just a few clicks. No programming required.",
+          img: nem
         },
         {
           title: "dICO APP",
-          text: "A custom application that runs user-side. It allows end-users to participate in an decentralized ICO. The dapp is powered by BarterDEX core. It’s ideal for dICOs of Bitcoin and Komodo compatibles."
+          text: "A custom application that runs user-side. It allows end-users to participate in an decentralized ICO. The dapp is powered by BarterDEX core. It’s ideal for dICOs of Bitcoin and Komodo compatibles.",
+          img: dico
         },
         {
           title: "ICO WebApp",
-          text: "A custom application that runs server-side. It allows your users to participate in your ICO through an easy to use website. It’s ideal for initial coin offerings of all types. It is one of the most secure ICO webapps available. Your funds are always in cold storage."
+          text: "A custom application that runs server-side. It allows your users to participate in your ICO through an easy to use website. It’s ideal for initial coin offerings of all types. It is one of the most secure ICO webapps available. Your funds are always in cold storage.",
+          img: icoicon
         },
         {
           title: "SPV Servers",
-          text: "SPV or Electrum is a technique described in Satoshi Nakamoto’s paper. SPV allows a lightweight client to verify that a transaction is included in the blockchain without downloading the entire blockchain. Also known as a Lite wallet."
+          text: "SPV or Electrum is a technique described in Satoshi Nakamoto’s paper. SPV allows a lightweight client to verify that a transaction is included in the blockchain without downloading the entire blockchain. Also known as a Lite wallet.",
+          img: spv
         },
         {
           title: "Wallets",
-          text: "Store and manage digital currencies with ease with your own custom cryptocurrency wallet."
+          text: "Store and manage digital currencies with ease with your own custom cryptocurrency wallet.",
+          img: wallet 
         },
         {
           title: "Block Explorers",
-          text: "An online blockchain browser that displays the contents of individual blocks and transactions and the transaction histories and balances."
+          text: "An online blockchain browser that displays the contents of individual blocks and transactions and the transaction histories and balances.",
+          img: explorer
         },
         {
           title: "E-commerce Integration",
-          text: "Boost your business sales by adding cryptocurrency payment options to your existing website. Our team of professionals will assure that you integrate the most efficient payment solution for your business."
+          text: "Boost your business sales by adding cryptocurrency payment options to your existing website. Our team of professionals will assure that you integrate the most efficient payment solution for your business.",
+          img: ecommerce
         },
         {
           title: "Cyber Security Services",
-          text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote the their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug reports to secure your blockchain."
+          text: "In collaboration with DevSEC we will go back to our hacker roots. Our hackathons and bounty programs will strengthen our bonds with the white/grey-hat community and promote the their continuous growth. ChainZilla will leverage the expertise of the most capable professionals in this field to pentest, peer-review, and provide critical bug reports to secure your blockchain.",
+          img: cyber
         },
       ],
       es: [
         {
           title: "Venta de Moneda o ICO",
-          text: "Lanza tu propia venta de tokens con un interfaz visual. Elimine toda la preocupación de hackers que aprovechan los errores utilizando nuestro software probado y seguro. Esto incluye la automatización de transferencias, almacenamiento en cold storage o transacciones con bloqueo de tiempo, y la distribución de tokens sin terceros."
+          text: "Lanza tu propia venta de tokens con un interfaz visual. Elimine toda la preocupación de hackers que aprovechan los errores utilizando nuestro software probado y seguro. Esto incluye la automatización de transferencias, almacenamiento en cold storage o transacciones con bloqueo de tiempo, y la distribución de tokens sin terceros.",
+          img: diytoken
         },
         {
           title: "Blockchain en Komodo",
-          text: "ChainZilla permite a cualquier persona crear, administrar y desplegar block chains utilizando la tecnología de Komodo con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas fáciles de configurar."
+          text: "ChainZilla permite a cualquier persona crear, administrar y desplegar block chains utilizando la tecnología de Komodo con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas fáciles de configurar.",
+          img: kmdicon
         },
         {
           title: "Tokenización en ERC-20",
-          text: "ChainZilla permite a cualquier persona crear, gestionar e implementar contratos inteligentes en el blockchain de Ethereum con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas de contratos inteligentes fáciles de configurar."
+          text: "ChainZilla permite a cualquier persona crear, gestionar e implementar contratos inteligentes en el blockchain de Ethereum con solo unos pocos clics. No se requiere programación. Seleccione de nuestro catálogo de plantillas de contratos inteligentes fáciles de configurar.",
+          img: ercicon
         },
         {
           title: "NEM Mosaics",
-          text: "ChainZilla permite que cualquiera cree, administre y distribuya Mosaicos y Espacio de nombres NEM con solo unos pocos clics. No se requiere programación."
+          text: "ChainZilla permite que cualquiera cree, administre y distribuya Mosaicos y Espacio de nombres NEM con solo unos pocos clics. No se requiere programación.",
+          img: nem
         },
         {
           title: "Aplicación Desktop para dICO",
-          text: "Una aplicación personalizada que se ejecuta en el lado del usuario. Le permite a sus usuarios participar en un ICO descentralizado. La aplicación funciona con BarterDEX Core. Es ideal para dICOs de Bitcoin y Komodo compatibles."
+          text: "Una aplicación personalizada que se ejecuta en el lado del usuario. Le permite a sus usuarios participar en un ICO descentralizado. La aplicación funciona con BarterDEX Core. Es ideal para dICOs de Bitcoin y Komodo compatibles.",
+          img: dico
         },
         {
           title: "Aplicación Web para dICO",
-          text: "Una aplicación propietaria que se ejecuta en el servidor. Permite a sus usuarios participar en su ICO a través de un sitio web fácil de usar. Es ideal para ofertas de monedas iniciales de todo tipo. Es una de las webapps ICO más seguras disponibles. Sus fondos están siempre almacenados en frío."
+          text: "Una aplicación propietaria que se ejecuta en el servidor. Permite a sus usuarios participar en su ICO a través de un sitio web fácil de usar. Es ideal para ofertas de monedas iniciales de todo tipo. Es una de las webapps ICO más seguras disponibles. Sus fondos están siempre almacenados en frío.",
+          img: icoicon
         },
         {
           title: "Monederos",
-          text: "Almacene y administre divisas digitales con facilidad con su billetera criptomoneda personalizada."
+          text: "Almacene y administre divisas digitales con facilidad con su billetera criptomoneda personalizada.",
+          img: spv
         },
         {
           title: "Explorador de Transacciones",
-          text: "Un explorador de transacciones que muestra los historiales y saldos de transacciones."
+          text: "Un explorador de transacciones que muestra los historiales y saldos de transacciones.",
+          img: wallet
         },
         {
           title: "Servidores SPV",
-          text: "SPV o Electrum es una técnica descrita en el artículo de Satoshi Nakamoto. SPV permite a un cliente liviano verificar que se incluye una transacción en blockchain sin descargar toda la cadena de bloques. También conocido como una monedero Lite."
+          text: "SPV o Electrum es una técnica descrita en el artículo de Satoshi Nakamoto. SPV permite a un cliente liviano verificar que se incluye una transacción en blockchain sin descargar toda la cadena de bloques. También conocido como una monedero Lite.",
+          img: explorer
         },
         {
           title: "Integracion E-commercio",
-          text: "Aumente las ventas de su negocio agregando opciones de pago de criptomonedas a su sitio web existente. Nuestro equipo de profesionales le asegurará que integra la solución de pago más eficiente para su negocio."
+          text: "Aumente las ventas de su negocio agregando opciones de pago de criptomonedas a su sitio web existente. Nuestro equipo de profesionales le asegurará que integra la solución de pago más eficiente para su negocio.",
+          img: ecommerce
         },
         {
           title: "Servicios de seguridad cibernética",
-          text: "En colaboración con DevSEC volveremos a nuestras raíces de hackers. Nuestros hackathons y programas de recompensas fortalecerán nuestros lazos con la comunidad blanca / sombrero gris y promoverán su crecimiento continuo. ChainZilla aprovechará la experiencia de los profesionales más capaces en este campo para evaluar, revisar por pares y proporcionar informes críticos para su proyecto."
+          text: "En colaboración con DevSEC volveremos a nuestras raíces de hackers. Nuestros hackathons y programas de recompensas fortalecerán nuestros lazos con la comunidad blanca / sombrero gris y promoverán su crecimiento continuo. ChainZilla aprovechará la experiencia de los profesionales más capaces en este campo para evaluar, revisar por pares y proporcionar informes críticos para su proyecto.",
+          img: cyber
         },
-        {
-          title: "Servicios diversos (consultar plazos de entrega)",
-          text: "Bots de recompensa para redes sociales. Monedero y aplicaciones con grandes modificaciones. Blockchain complejo y plantillas no estándar. Monedero Offline con diseño. Blockchains experimentales. Diseño de monedero móvil."
-        }
       ]
     }
   },

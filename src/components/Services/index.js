@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import styles from './index.module.css'
 
 import Tile from '../../templates/Tile'
-import logo from '../../img/zilla-foot.png'
+// import logo from '../../img/zilla-foot.png'
 
 import wave from '../../img/wave2.svg'
 
@@ -14,7 +14,7 @@ const Services = ({services, currentLanguage}) => <div className={styles.service
 		<p className={styles.subtitle}>{services.subTitle[currentLanguage]}</p>
 		<div className={styles.tiles}>
 			{
-				services.items[currentLanguage].map((({ title, text }) => <Tile key={title} logo={logo} title={title} text={text} />))
+				services.items[currentLanguage].map((({ title, text, img }) => <Tile key={title} logo={img} title={title} text={text} />))
 			}
 		</div>
 	</div>
