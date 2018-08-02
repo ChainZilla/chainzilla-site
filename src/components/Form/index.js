@@ -4,7 +4,7 @@ import { Element } from 'react-scroll'
 import styles from './index.module.css'
 
 import LetterHead from '../../templates/LetterHead'
-import wave2 from '../../img/wave4.png'
+import wave2 from '../../img/wave4-custom.svg'
 
 const inputs = [
 	{
