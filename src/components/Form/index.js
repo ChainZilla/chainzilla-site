@@ -9,11 +9,13 @@ import wave2 from '../../img/wave4.png'
 const inputs = [
 	{
 		title: "name of Project Manager",
-		name: "manager"
+		name: "manager",
+		type: "text"
 	},
 	{
 		title: "email",
-		name: "email"
+		name: "email",
+		type: "email"
 	}
 ]
 
@@ -42,11 +44,11 @@ const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <El
 		  <input type="hidden" name="contact" value="contact" />  
 			<div className={styles.inputs}>
 				{
-					inputs.map(({ title, name }) => <div className={styles.inputWrapper} key={title}><p className={styles.inputTitle}>{title.toUpperCase()}</p><input autoComplete={name} name={name} className={styles.input} type="text" /></div>)
+					inputs.map(({ title, name, type }) => <div className={styles.inputWrapper} key={title}><p className={styles.inputTitle}>{title.toUpperCase()}</p><input autoComplete={name} name={name} className={styles.input} type={type} required/></div>)
 				}
 			</div>
 			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>{project[currentLanguage]}</p>
-			<textarea name='information' className={styles.textarea} />
+			<textarea name='information' className={styles.textarea} required minLength='60' />
 			<div style={{display: 'flex', justifyContent: 'center', marginTop: '1rem'}}>
 				<button type='submit' className={styles.btn}>{started[currentLanguage]}</button>
 			</div>
