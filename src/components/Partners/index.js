@@ -82,6 +82,16 @@ const members = [
 		title: "JohnR",
 		text: "Komodo Deployment Specialist",
 		url: ""
+	},
+	{
+		title: "Sonia Ortega",
+		text: "Social Media Manager",
+		url: ""
+	},
+	{
+		title: "Webworker01",
+		text: "Web Developer",
+		url: ""
 	}
 ]
 
