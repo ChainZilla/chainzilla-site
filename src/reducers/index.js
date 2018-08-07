@@ -665,15 +665,18 @@ const initialState = {
           steps: [
             {
               text: 'Unveil ChainZilla (completed)',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Setup Legal Structure (completed)',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
               text: 'Establish Partnerships with exchanges, security experts, and crypto communities to endorse ChainZilla (in process)',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Initiate development of ChainZilla’s own Basilisk multi-wallet design for Komodo & its assetchains (in process)',
