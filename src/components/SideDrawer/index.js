@@ -41,7 +41,8 @@ const sideDrawer = ({ isNavOpen, switchLanguage, currentLanguage, menuItems }) =
         <li><a style={{textDecoration: 'none', color: '#fff'}} href="http://www.zillaexplorer.io/" target="_blank">ZillaExplorer</a></li>
         <li><a style={{textDecoration: 'none', color: '#fff'}} href="/ChainZilla_Litepaper_v1.pdf" >Litepaper</a></li>
         <li><a style={{textDecoration: 'none', color: '#fff'}} href="https://komodoplatform.com/komodo-wallets/" target="_blank">Wallet</a></li>
-        <li><a style={{textDecoration: 'none', color: '#fff'}} href="https://github.com/atomiclabs/hyperdex/releases" target="_blank">DEX</a></li>
+        <li><a style={{textDecoration: 'none', color: '#fff'}} href="https://medium.com/chainzilla" target="_blank">Blog</a></li>
+        <li><a style={{textDecoration: 'none', color: '#fff'}} href="https://faucet.chainzilla.io" target="_blank">Faucet</a></li>
       </ul>
       {/* @todo: add whitepaper pdf */} 
       <div className='languages'>
