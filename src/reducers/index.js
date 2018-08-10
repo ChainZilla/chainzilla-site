@@ -659,17 +659,17 @@ const initialState = {
     },
     phases: {
       en: [
-        {
+      {
           title: 'Second Quarter 2018',
           color: '#b2b2b2',
           steps: [
             {
-              text: 'Unveil ChainZilla (completed)',
+              text: 'Unveil ChainZilla',
               alignment: 'right',
               status: 'completed'
             },
             {
-              text: 'Setup Legal Structure (completed)',
+              text: 'Setup Legal Structure',
               alignment: 'left',
               status: 'completed'
             },
@@ -680,11 +680,13 @@ const initialState = {
             },
             {
               text: 'Initiate development of ChainZilla’s own Basilisk multi-wallet design for Komodo & its assetchains (in process)',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
               text: 'Present our first official contract with a reputable project (in process)',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             }
           ]
         },
@@ -694,23 +696,28 @@ const initialState = {
           steps: [
             {
               text: 'Komodo DIY',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'NEM Mosaics',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
               text: 'ETH ERC20 DIY',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'ETH Migration Services',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
-              text: 'White Paper Development Services (completed)',
-              alignment: 'right'
+              text: 'White Paper Development Services',
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Alpha Tests of ChainZilla’s Basilisk multi-wallet for Komodo & all its assetchains. It will become the MEW of Komodo.',
@@ -802,23 +809,28 @@ const initialState = {
           steps: [
             {
               text: 'Revelar ChainZilla (completado)',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Configurar estructura legal (completada)',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
               text: 'Establecer alianzas con intercambios, expertos en seguridad y comunidades criptográficas para respaldar a ChainZilla (en proceso)',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Iniciar el desarrollo del diseño BASILISK - un monedero múltiple de ChainZilla para Komodo y todos los assetchains (en proceso)',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
               text: 'Presentar nuestro primer contrato oficial con un proyecto (en proceso)',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             }
           ]
         },
@@ -828,23 +840,28 @@ const initialState = {
           steps: [
             {
               text: 'Komodo DIY',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Mosaics de NEM',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
               text: 'ETH ERC20 DIY',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Emigracion de ETH',
-              alignment: 'left'
+              alignment: 'left',
+              status: 'completed'
             },
             {
               text: 'Desarrollo de Papel Tecnico (completado)',
-              alignment: 'right'
+              alignment: 'right',
+              status: 'completed'
             },
             {
               text: 'Pruebas alpha de la mondero múltiple BASILISK de ChainZilla para Komodo y todas las cadenas de activos. Se convertirá en el MEW de Komodo.',
