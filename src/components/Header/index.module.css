@@ -52,7 +52,6 @@
 }
 
 .navWrapper {
-	box-sizing: border-box;
 	position: fixed;
 	width: 100%;
 	z-index: 300;
@@ -323,7 +322,6 @@
 		padding-top: 2rem;
 	}
 	.mobileNav {
-		box-sizing: border-box;
 		width: 100%;
 		position: fixed;
 		padding: 1rem;

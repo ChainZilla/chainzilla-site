@@ -20,17 +20,29 @@
 	background: #fff;
 	border-radius: 50%;
 	position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.bar {
+	width: 4px;
+	height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
 }
 
 .step {
 	display: grid;
 	grid-template-columns: 50% 50%;
+	position: relative;
 }
 
 .stepItem {
 	width: 100%;
 	padding: .8rem 0;
-	position: relative;
 }
 
 /* Media Queries */

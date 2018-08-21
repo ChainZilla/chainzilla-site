@@ -8,13 +8,12 @@ const Step = ({text, alignment, color, status}) => <div className={styles.step}>
 	<div
 		className={styles.stepItem}
 		style={
-			alignment === 'left' ? {borderRight: `4px solid ${color}`, gridColumnStart: '1', textAlign: 'right'} : {borderLeft: `4px solid ${color}`, gridColumnStart: '2'}
+			alignment === 'left' ? { gridColumnStart: '1', textAlign: 'right'} : {gridColumnStart: '2'}
 		}
 	>
+		<div style={{background: color, width: `${status === 'completed' ? '5px' : '4px'}`}} className={styles.bar}></div>
 		<div
-			style={alignment === 'left' ? {background: `${status === 'completed' && color}`, border: `2px solid ${color}`, top: '10px', right: '-14px'} : {background: `${status === 'completed' && color}`, border: `2px solid ${color}`, top: '10px', left: '-14px'}} 
-			// Hogy lehet ezt konnektelni??
-			// {status === 'completed' ? {background: `${color}`} : {background: '#fff'}}
+			style={alignment === 'left' ? {background: `${status === 'completed' && color}`, border: `2px solid ${color}`} : {background: `${status === 'completed' && color}`, border: `2px solid ${color}`}} 
 			className={styles.circle}>
 		</div>
 		<p style={alignment === 'left' ? {paddingRight: '20px'} : {paddingLeft: '20px'}}>{text}</p>
