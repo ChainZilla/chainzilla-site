@@ -684,7 +684,7 @@ const initialState = {
               status: 'completed'
             },
             {
-              text: 'Present our first official contract with a reputable project (in process)',
+              text: 'Present our first official contract for tokenization and ICO (in process)',
               alignment: 'right',
               status: 'completed'
             }
@@ -738,7 +738,7 @@ const initialState = {
               alignment: 'left'
             },
             {
-              text: 'After a successful and modest ICO, we will initiate an expansion of Chainzilla’s Basilisk multi-wallet  extending wallet functionalities and updated UI.',
+              text: 'After a successful ICO, we will initiate an expansion of Chainzilla’s Basilisk multi-wallet  extending wallet functionalities and updated UI.',
               alignment: 'right'
             },
             {
