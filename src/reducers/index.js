@@ -674,17 +674,17 @@ const initialState = {
               status: 'completed'
             },
             {
-              text: 'Establish Partnerships with exchanges, security experts, and crypto communities to endorse ChainZilla (in process)',
+              text: 'Establish Partnerships with exchanges, security experts, and crypto communities to endorse ChainZilla ',
               alignment: 'right',
               status: 'completed'
             },
             {
-              text: 'Initiate development of ChainZilla’s own Basilisk multi-wallet design for Komodo & its assetchains (in process)',
+              text: 'Initiate development of ChainZilla’s own Basilisk multi-wallet design for Komodo & its assetchains ',
               alignment: 'left',
               status: 'completed'
             },
             {
-              text: 'Present our first official contract for tokenization and ICO (in process)',
+              text: 'Present our first official contract for tokenization and ICO ',
               alignment: 'right',
               status: 'completed'
             }
@@ -808,27 +808,27 @@ const initialState = {
           color: '#b2b2b2',
           steps: [
             {
-              text: 'Revelar ChainZilla (completado)',
+              text: 'Revelar ChainZilla ',
               alignment: 'right',
               status: 'completed'
             },
             {
-              text: 'Configurar estructura legal (completada)',
+              text: 'Configurar estructura legal ',
               alignment: 'left',
               status: 'completed'
             },
             {
-              text: 'Establecer alianzas con intercambios, expertos en seguridad y comunidades criptográficas para respaldar a ChainZilla (en proceso)',
+              text: 'Establecer alianzas con intercambios, expertos en seguridad y comunidades criptográficas para respaldar a ChainZilla ',
               alignment: 'right',
               status: 'completed'
             },
             {
-              text: 'Iniciar el desarrollo del diseño BASILISK - un monedero múltiple de ChainZilla para Komodo y todos los assetchains (en proceso)',
+              text: 'Iniciar el desarrollo del diseño BASILISK - un monedero múltiple de ChainZilla para Komodo y todos los assetchains ',
               alignment: 'left',
               status: 'completed'
             },
             {
-              text: 'Presentar nuestro primer contrato oficial con un proyecto (en proceso)',
+              text: 'Presentar nuestro primer contrato oficial con un proyecto ',
               alignment: 'right',
               status: 'completed'
             }
