@@ -28,8 +28,7 @@ const mapStateToProps = state => ({
 	letterhead: state.form.letterhead,
 	project: state.form.project,
 	started: state.form.started,
-	launchText: state.form.launchText,
-	'g-recaptcha-response': state.form.g-recaptcha-response
+	launchText: state.form.launchText
 })
 
 const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <Element name='form'><div className={styles.wrapper}>
