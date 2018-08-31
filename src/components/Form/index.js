@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
 import { connect } from "react-redux";
-import { Element } from 'react-scroll'
-import styles from './index.module.css'
+import { Element } from 'react-scroll';
 
-import LetterHead from '../../templates/LetterHead'
-import wave2 from '../../img/wave4-custom.svg'
+import { ReCAPTCHA } from "react-google-recaptcha";
 
-import Recaptcha from "react-google-recaptcha";
+import styles from './index.module.css';
+
+import LetterHead from '../../templates/LetterHead';
+import wave2 from '../../img/wave4-custom.svg';
 
 const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
 
@@ -53,8 +54,7 @@ const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <El
 			</div>
 			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>{project[currentLanguage]}</p>
 			<textarea name='information' className={styles.textarea} required minLength='60' />
-			<div data-netlify-recaptcha="true"></div>
-			<Recaptcha ref="recaptcha" sitekey={RECAPTCHA_KEY} />
+			<ReCAPTCHA ref="recaptcha" sitekey={RECAPTCHA_KEY} onChange={value => this.setState({ "g-recaptcha-response": value })} />
 			<p style={{display:'none', visibility:'hidden'}}>
 				<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
 			</p>
