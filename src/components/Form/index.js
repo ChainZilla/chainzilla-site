@@ -6,6 +6,10 @@ import styles from './index.module.css'
 import LetterHead from '../../templates/LetterHead'
 import wave2 from '../../img/wave4-custom.svg'
 
+import Recaptcha from "react-google-recaptcha";
+
+const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
+
 const inputs = [
 	{
 		title: "name of Project Manager",
@@ -24,7 +28,8 @@ const mapStateToProps = state => ({
 	letterhead: state.form.letterhead,
 	project: state.form.project,
 	started: state.form.started,
-	launchText: state.form.launchText
+	launchText: state.form.launchText,
+	'g-recaptcha-response': state.form.g-recaptcha-response
 })
 
 const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <Element name='form'><div className={styles.wrapper}>
@@ -50,6 +55,7 @@ const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <El
 			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>{project[currentLanguage]}</p>
 			<textarea name='information' className={styles.textarea} required minLength='60' />
 			<div data-netlify-recaptcha="true"></div>
+			<Recaptcha ref="recaptcha" sitekey={RECAPTCHA_KEY} />
 			<p style={{display:'none', visibility:'hidden'}}>
 				<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
 			</p>
