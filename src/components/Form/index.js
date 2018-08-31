@@ -49,6 +49,7 @@ const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <El
 			</div>
 			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>{project[currentLanguage]}</p>
 			<textarea name='information' className={styles.textarea} required minLength='60' />
+			<div data-netlify-recaptcha></div>
 			<div style={{display: 'flex', justifyContent: 'center', marginTop: '1rem'}}>
 				<button type='submit' className={styles.btn}>{started[currentLanguage]}</button>
 			</div>
