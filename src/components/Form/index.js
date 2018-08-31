@@ -49,6 +49,9 @@ const Form = ({ currentLanguage,letterhead,project,started,launchText  }) => <El
 			</div>
 			<p style={{marginTop: '1rem'}} className={styles.inputTitle}>{project[currentLanguage]}</p>
 			<textarea name='information' className={styles.textarea} required minLength='60' />
+			<p style={{display:'none', visibility:'hidden'}}>
+				<label>Don’t fill this out if you're human: <input name="bot-field" type="text" /></label>
+			</p>
 			<div style={{display: 'flex', justifyContent: 'center', marginTop: '1rem'}}>
 				<button type='submit' className={styles.btn}>{started[currentLanguage]}</button>
 			</div>
