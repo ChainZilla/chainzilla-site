@@ -738,7 +738,7 @@ const initialState = {
               alignment: 'left'
             },
             {
-              text: 'After a successful ICO, we will initiate an expansion of Chainzilla’s Basilisk multi-wallet  extending wallet functionalities and updated UI.',
+              text: 'After a successful ICO, we will initiate an expansion of Chainzilla’s Chameleon multi-wallet  extending wallet functionalities and updated UI.',
               alignment: 'right'
             },
             {
@@ -772,7 +772,7 @@ const initialState = {
               alignment: 'right'
             },
             {
-              text: 'ChainZilla will re-designed an improved version of Agama Mobile Multiwallet.',
+              text: 'ChainZilla will re-design an improved version of Agama Mobile Multiwallet.',
               alignment: 'left'
             },
             {
@@ -864,7 +864,7 @@ const initialState = {
               status: 'completed'
             },
             {
-              text: 'Pruebas alpha de el multi-monedero de ChainZilla para Komodo y todas las cadenas de activos. Se convertirá en el MEW de Komodo.',
+              text: 'Pruebas alpha de el multi-monedero de ChainZilla para Komodo y todas las cadenas de activos.',
               alignment: 'left'
             }
           ]
