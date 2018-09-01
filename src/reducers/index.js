@@ -720,7 +720,7 @@ const initialState = {
               status: 'completed'
             },
             {
-              text: 'Alpha Tests of ChainZilla’s Basilisk multi-wallet for Komodo & all its assetchains. It will become the MEW of Komodo.',
+              text: 'Alpha Tests of ChainZilla’s multi-wallet for Komodo & all its assetchains.',
               alignment: 'left'
             }
           ]
@@ -742,7 +742,7 @@ const initialState = {
               alignment: 'right'
             },
             {
-              text: 'Begin development of the Chameleon dICO dapp for all blockchains & ERC20. ChainZilla will expand upon the groundwork laid down by the AGAMA Multiwallet developers. These improvements will increase the usability of Komodo assetchains and extend wallet functionalities. Additionally it will provide users with a state-of-the-art user interface that can be relevant for years to come.',
+              text: 'Begin development of the dICO dapp for all blockchains & ERC20. ChainZilla will expand upon the groundwork laid down by the AGAMA Multiwallet developers. These improvements will increase the usability of Komodo assetchains and extend wallet functionalities. Additionally it will provide users with a state-of-the-art user interface that can be relevant for years to come.',
               alignment: 'left'
             },
             {
@@ -760,23 +760,23 @@ const initialState = {
           color: '#b2b2b2',
           steps: [
             {
-              text: 'Deliver new BASILISK Multiwallet UI and initiate peer-review',
+              text: 'Deliver new Chameleon Multiwallet UI and initiate peer-review',
               alignment: 'right'
             },
             {
-              text: 'Deliver Chameleon dICO dapp and initiate peer-review',
+              text: 'Deliver dICO dapp and initiate peer-review',
               alignment: 'left'
             },
             {
-              text: 'Initiate Basilisk mobile design',
+              text: 'Initiate Chameleon mobile design',
               alignment: 'right'
             },
             {
-              text: 'ChainZilla will re-designed an improved version of Agama Mobile Multiwallet. We will seek appstore approval.',
+              text: 'ChainZilla will re-designed an improved version of Agama Mobile Multiwallet.',
               alignment: 'left'
             },
             {
-              text: 'Present our first official contract with a reputable project',
+              text: 'Present our first official ICO contract',
               alignment: 'right'
             }
           ]
@@ -823,7 +823,7 @@ const initialState = {
               status: 'completed'
             },
             {
-              text: 'Iniciar el desarrollo del diseño BASILISK - un monedero múltiple de ChainZilla para Komodo y todos los assetchains ',
+              text: 'Iniciar el desarrollo del diseño Chameleon - un monedero múltiple de ChainZilla para Komodo y todos los assetchains ',
               alignment: 'left',
               status: 'completed'
             },
@@ -864,7 +864,7 @@ const initialState = {
               status: 'completed'
             },
             {
-              text: 'Pruebas alpha de la mondero múltiple BASILISK de ChainZilla para Komodo y todas las cadenas de activos. Se convertirá en el MEW de Komodo.',
+              text: 'Pruebas alpha de el multi-monedero de ChainZilla para Komodo y todas las cadenas de activos. Se convertirá en el MEW de Komodo.',
               alignment: 'left'
             }
           ]
@@ -878,7 +878,7 @@ const initialState = {
               alignment: 'right'
             },
             {
-              text: 'Iniciaremos una expansión de el monedero múltiple BASILISK de Chainzilla',
+              text: 'Iniciaremos una expansión de el multi-monedero de Chainzilla',
               alignment: 'left'
             },
             {
@@ -904,15 +904,15 @@ const initialState = {
           color: '#b2b2b2',
           steps: [
             {
-              text: 'Entregar nueva interfaz de usuario de BASILISK Multiwallet e iniciar la revisión oficial',
+              text: 'Entregar nueva interfaz de usuario de Chameleon Multiwallet e iniciar la revisión oficial',
               alignment: 'right'
             },
             {
-              text: 'Entregar la aplicación Chameleon dICO e iniciar la revisión oficial',
+              text: 'Entregar la aplicación dICO e iniciar la revisión oficial',
               alignment: 'left'
             },
             {
-              text: 'Iniciar el diseño móvil de Basilisk',
+              text: 'Iniciar el diseño móvil de Chameleon',
               alignment: 'right'
             },
             {
