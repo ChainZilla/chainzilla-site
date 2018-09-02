@@ -246,7 +246,7 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary website to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "ICO WebApp (ChainZilla's proprietary website to launch your ICO - this option is ideal for cryptoasset contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
                 "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
@@ -270,7 +270,7 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary ico website to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "ICO WebApp (ChainZilla's proprietary ico website to launch your ICO - this option is ideal for cryptoasset contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
                 "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
@@ -295,7 +295,7 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary ICO website to launch your ico - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "ICO WebApp (ChainZilla's proprietary ICO website to launch your ico - this option is ideal for cryptoasset contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
                 "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
@@ -320,7 +320,7 @@ const initialState = {
             {
               title: "Premium Package Only",
               items: [
-                "ICO WebApp (ChainZilla's proprietary ico website to launch your ICO - this option is ideal for ETH contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
+                "ICO WebApp (ChainZilla's proprietary ico website to launch your ICO - this option is ideal for cryptoasset contributions and payment processor integration. One of the most secure ICO mechanisms available. This option requires minimal efforts to run a initial coin offering)",
                 "Automated Pricing (customize your ICO with rewards and special deals and custom distribution schemes)"
               ]
             }
@@ -352,7 +352,7 @@ const initialState = {
               items: [
                 "Komodo tokenization (launch a custom blockchain on Komodo Platform)",
                 "Airdrop Automation",
-                "ICO WebApp (ChainZilla's proprietary ico website to launch an ICO - this option is ideal for ETH contributions)",
+                "ICO WebApp (ChainZilla's proprietary ico website to launch an ICO - this option is ideal for cryptoasset contributions)",
                 "Wallet (custom standalone wallet)",
                 "Block Explorer (block explorer with 1 year of hosting)",
                 "SPV Implementation (Light wallet server with 1 year of hosting)"
@@ -382,7 +382,7 @@ const initialState = {
             {
               title: "Paquete Premium",
               items: [
-                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en ETH y la integración del procesador de pagos. Uno de los mecanismos de ICO más seguros disponibles. Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
+                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en cryptodivisas y la integración del procesador de pagos. Uno de los mecanismos de ICO más seguros disponibles. Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
                 "Precio Automatizado (personalice su ICO con recompensas y ofertas especiales y esquemas de distribución personalizados)"
               ]
             }
@@ -405,7 +405,7 @@ const initialState = {
             {
               title: "Paquete Premium",
               items: [
-                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en ETH y la integración del procesador de pagos. Uno de los mecanismos más seguros disponibles para lanzar su ICO. (Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
+                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en cryptodivisas y la integración del procesador de pagos. Uno de los mecanismos más seguros disponibles para lanzar su ICO. (Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
                 "Precio Automatizado (personalice su ICO con recompensas, ofertas especiales y esquemas de distribución personalizados)"
               ]
             }
@@ -431,7 +431,7 @@ const initialState = {
             {
               title: "Paquete Premium",
               items: [
-                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en ETH y la integración del procesador de pagos. Uno de los mecanismos más seguros disponibles para lanzar su ICO. (Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
+                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en cryptodivisas y la integración del procesador de pagos. Uno de los mecanismos más seguros disponibles para lanzar su ICO. (Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
                 "Precio Automatizado (personalice su ICO con recompensas, ofertas especiales y esquemas de distribución personalizados)"
               ]
             }
@@ -456,7 +456,7 @@ const initialState = {
             {
               title: "Paquete Premium",
               items: [
-                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en ETH y la integración del procesador de pagos. Uno de los mecanismos más seguros disponibles para lanzar su ICO. (Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
+                "ICO WebApp (tecnología propiedad de ChainZilla para lanzar su ICO - esta opción es ideal para las contribuciones en cryptodivisas y la integración del procesador de pagos. Uno de los mecanismos más seguros disponibles para lanzar su ICO. (Esta opción requiere un mínimo esfuerzo para ejecutar una oferta de moneda inicial)",
                 "Precio Automatizado (personalice su ICO con recompensas, ofertas especiales y esquemas de distribución personalizados)"
               ]
             }
