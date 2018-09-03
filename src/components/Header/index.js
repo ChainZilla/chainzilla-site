@@ -80,7 +80,7 @@ class Header extends React.Component {
 		<nav className={styles.nav}>
 			<ul className={styles.nav}>
 				{menuItems[currentLanguage].map(({item, n}) => <li onClick={() => scroller.scrollTo(n, {smooth: true}) } style={this.state.dark ? {color: '#fff'} : {color: '#111126'}} className={styles.item} key={item}>{item}</li>)}
-				<a style={this.state.dark ? {color: '#fff'} : null} href="http://www.zillaexplorer.io/" target="_blank" className={styles.item}>ZillaExplorer</a> 
+				<a style={this.state.dark ? {color: '#fff'} : null} href="http://www.zillaexplorer.io/" target="_blank" className={styles.item}>Explorer</a> 
 				<a style={this.state.dark ? {color: '#fff'} : null} href="https://komodoplatform.com/komodo-wallets/" target="_blank" className={styles.item}>Wallet</a>
 				<a style={this.state.dark ? {color: '#fff'} : null} href="https://medium.com/chainzilla" target="_blank" className={styles.item}>Blog</a>
 				<a style={this.state.dark ? {color: '#fff'} : null} href="https://faucet.chainzilla.io" target="_blank" className={styles.item}>Faucet</a>
