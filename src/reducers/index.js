@@ -235,7 +235,7 @@ const initialState = {
               items: [
                 "Komodo tokenization (launch a custom blockchain on Komodo Platform)",
                 "dICO App (custom dico app to launch a decentralized ico with 5 coin options including ZEC, BTC, ETH, BCH, and KMD)",
-                "Wallet (Basilisk multi-wallet)",
+                "Wallet (Chameleon multi-wallet)",
                 "Block Explorer (1 year hosting)",
                 "Mining Pool Setup (if the blockchain is mineable) ",
                 "SPV Implementation (1 year hosting)",
@@ -285,7 +285,7 @@ const initialState = {
               items: [
                 "Bitcoin compatible blockchain (launch a secure PoS blockchain)",
                 "dICO App (custom dico app to launch a decentralized ICO with 5 coin options including ZEC, BTC, ETH, BCH, and KMD)",
-                "Wallet (Basilisk multi-wallet)",
+                "Wallet (Chameleon multi-wallet)",
                 "Block Explorer (1 year hosting)",
                 "SPV Implementation (1 year hosting)",
                 "Mining Pool Setup",
@@ -371,7 +371,7 @@ const initialState = {
               items: [
                 "Tokenización en Komodo (lanza tu propio blockchain a la medida en Komodo Platform)",
                 "Aplicación dICO  (aplicación para lanzar un dICO con 5 opciones para contribuir incluyendo ZEC, BTC, ETH, BCH, and KMD)",
-                "Monedero (Basilisk multi-monedero)",
+                "Monedero (Chameleon multi-monedero)",
                 "Explorador de Transacciones (1 año de hosting)",
                 "Grupo de Minería (depende si el blockchain lo permite) ",
                 "Implementación SPV (1 año de hosting)",
@@ -420,7 +420,7 @@ const initialState = {
               items: [
                 "Blockchain compatible con Bitcoin (lanza un blockchain asegurado por PoS)",
                 "Aplicación dICO  (aplicación para lanzar un dICO con 5 opciones para contribuir incluyendo ZEC, BTC, ETH, BCH, and KMD)",
-                "Monedero (Basilisk multi-monedero)",
+                "Monedero (Chameleon multi-monedero)",
                 "Explorador de Transacciones (1 año de hosting)",
                 "Grupo de Minería (depende si el blockchain lo permite) ",
                 "Implementación SPV (1 año de hosting)",
@@ -679,7 +679,7 @@ const initialState = {
               status: 'completed'
             },
             {
-              text: 'Initiate development of ChainZilla’s own Basilisk multi-wallet design for Komodo & its assetchains ',
+              text: 'Initiate development of ChainZilla’s own Chameleon multi-wallet design for Komodo & other assets ',
               alignment: 'left',
               status: 'completed'
             },
